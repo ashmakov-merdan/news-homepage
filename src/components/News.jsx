@@ -15,7 +15,7 @@ export default function News() {
                         const { id, title, description } = article;
                         return (
                             <div key={id} className={"news-item"}>
-                                <h4 className={"news-title"}>{title}</h4>
+                                <h2 className={"news-title"}>{title}</h2>
                                 <p className={"news-paragraph"}>{description}</p>
                             </div>
                         )

@@ -5,9 +5,7 @@ export default function App(){
     return (
         <Router>
             <Routes>
-                <Route path={"/news"} element={<Home/>}>
-
-                </Route>
+                <Route path={"/"} element={<Home/>} />
             </Routes>
         </Router>
     )
