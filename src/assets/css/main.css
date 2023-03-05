@@ -129,7 +129,7 @@ header {
     height: 100%;
 }
 
-aside {
+.aside {
     padding: 20px;
     flex-shrink: 0;
     align-self: stretch;
@@ -225,6 +225,13 @@ aside {
 }
 
 @media screen and (max-width: 560px) {
+    nav {
+        padding: 10px 20px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: var(--offWhite);
+    }
     .burger {
         display: flex;
     }
@@ -277,11 +284,10 @@ aside {
         width: fit-content;
     }
 
-    aside {
+    .aside {
         width: 100%;
     }
 
-    
     .top-news {
         flex-direction: column;
         gap: 30px;

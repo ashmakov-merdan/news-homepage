@@ -7,7 +7,7 @@ export default function News() {
     const [ news, setNews ] = useState(newArticles);
 
     return (
-        <aside>
+        <div className={"aside"}>
             <h1 className={"news-heading"}>New</h1>
             <div className={"news-list"}>
                 {
@@ -22,6 +22,6 @@ export default function News() {
                     })
                 }
             </div>
-        </aside>
+        </div>
     )
 }
