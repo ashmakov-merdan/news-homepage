@@ -6,7 +6,7 @@ export default function Navigation(){
     const [ toggle, setToggle ] = useState(false);
     
     return (
-        <nav>
+        <nav role={"navigation"}>
             <div className={"logo"}>
                 <img src={logo} alt={"logo"}/>
             </div>

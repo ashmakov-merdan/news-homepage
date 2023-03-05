@@ -3,7 +3,7 @@ import News from "../components/News";
 
 export default function Header(){
     return (
-        <header>
+        <header role={"banner"}>
             <Hero/>
             <News/>
         </header>
