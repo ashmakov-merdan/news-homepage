@@ -7,7 +7,7 @@ export default function TopNews() {
     const [ news, setNews ] = useState(topArticles);
 
     return (
-        <div className={"top-section"}>
+        <div className={"top-section"} role={"listbox"}>
             <div className={"top-news"}>
                 {
                     news.map((article, index) => {
